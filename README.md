@@ -6,8 +6,11 @@ In this challenge, we were tasked with scraping text from a website. We leverage
 
 Scrape Title & Preview Text from Mars News:
 
+Used BeautifulSoup to scrape text and title from website. I then created an empty list to store dictionaries for each title and preview article. I used a for loop to extract each of the text elements and w/in the loop extracted the title and preview text elements. Finally, I appended the text elements to the empty list previously created.
+
 Scrape & Analyze Mars Weather Data:
 
+For this portion, I scraped a table using BeautifulSoup. I extracted all headers and rows from the table. Next, I created an empty list from which to append the headers using a for loop. Then I initialized a dataframe comprising the headers. I proceeded to add the row level data to the previously created dataframe. Finally, I analyzed the data using groupby and various aggregation funcitons.
 
 Resources Used:
 
